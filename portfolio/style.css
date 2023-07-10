@@ -206,8 +206,25 @@ body {
 
 }
 
+.card-body {
+    background-color: #142d4c;
+    color: #fff;
+}
 
+.card-title {
+    color: #fff;
+    fon
+}
 
+.card-text {
+    color: #fff;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 480px;
+
+}
 
 
 
@@ -313,5 +330,7 @@ hr {
 .copyright {
     margin-bottom: 0;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: justify;
 }
+
+
