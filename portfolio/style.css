@@ -70,7 +70,6 @@ body {
   }
   
   .container {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -141,17 +140,7 @@ body {
 }
 
 /*---------languages-----*/
-.title::after {
-    content: '';
-    background-color: #142d4c;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-}
+
 
 .services {
 
@@ -165,14 +154,125 @@ body {
     text-transform: uppercase;
 }
 
+
+
+.title::before {
+    content: '';
+    background: #142d4c;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #142d4c;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+   display: block;
+    transform: translateY(8px);
+}
+
+
+
+
 /*---------about me-----*/
-#about-me {
-  background: #142d4c;
-  padding-bottom: 50x;
-  padding-top: 50x;
+#about-us {
+    color: #fff;
+    background: #142d4c;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    text-align: left;
+}
+
+.about-title {
+
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    margin: 10px;
+}
+
+.img-fluid {
+    text-align: left;
+    margin: 24px 0 12px 0;
+    position: relative;
+    
+}
+
+/*---projects--*/
+#Projects {
+    margin: 100px 0;
+    
+
 }
 
 
 
 
 
+
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/*---projects--*/
+#social-media {
+ background: #fff;
+ color: black;
+ padding: 100px 0;
+}
+
+/*---social--*/
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+ width: 60px;
+ transition: 0.5s;
+
+}
+
+.social-icons a:hover {
+    transform: translateY(-10px);
+}
+
+
+/*---footer--*/
+#footer {
+    background-image: linear-gradient(to right,#142d4c, #142d4c);
+    color: #fff;
+} 
+
+.footer-img {
+    width: 100%;
+}
